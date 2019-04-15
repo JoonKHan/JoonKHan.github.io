@@ -2,19 +2,19 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url(/lato/Lato-Regular.ttf) format('truetype');
+  src: url(../lato/Lato-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: url(/lato/Lato-Bold.ttf) format('truetype');
+  src: url(../lato/Lato-Bold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: url(/lato/Lato-Black.ttf) format('truetype');
+  src: url(../lato/Lato-Black.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Princess Sofia';
