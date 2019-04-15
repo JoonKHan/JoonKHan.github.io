@@ -159,3 +159,33 @@ a:hover, a:focus, a:active {
 
   background: white;
 }
+
+
+modalDialogL {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.modalDialogL:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialogL > div {
+  position: relative;
+  width: 900px;
+
+  margin: 10% auto;
+  padding: 5px 20px 10px 20px;
+
+  background: white;
+}
