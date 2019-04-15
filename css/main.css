@@ -42,12 +42,11 @@ a:hover, a:focus, a:active {
 
 .nav > li > a {
   border: 1px solid transparent;
-  transition: border 1s ease-out;
 }
 .nav > li > a:focus, .nav > li > a:hover {
   background-color: transparent;
   border: 1px solid rgb(230, 230, 230);
-  transition: border 2s ease-out;
+ 
 }
 
 .footer {
