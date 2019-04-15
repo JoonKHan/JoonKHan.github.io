@@ -679,6 +679,11 @@ pre code {
   flex: 0 0 66.666667%;
   max-width: 66.666667%;
 }
+.list-group-item.active>.badge,
+.nav-pills>.active>a>.badge{color:#337ab7;background-color:#fff}
+.list-group-item>.badge{float:right}
+.list-group-item>.badge+.badge{margin-right:5px}
+.nav-pills>li>a>.badge{margin-left:3px}
 
 .col-9 {
   -ms-flex: 0 0 75%;
