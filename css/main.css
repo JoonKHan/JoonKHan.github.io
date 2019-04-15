@@ -161,7 +161,7 @@ a:hover, a:focus, a:active {
 }
 
 
-modalDialogL {
+.modalDialogL {
   position: fixed;
   top: 0;
   right: 0;
