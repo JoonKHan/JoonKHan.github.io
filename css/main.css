@@ -16,12 +16,6 @@
   font-weight: 900;
   src: url(../lato/Lato-Black.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Princess Sofia';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/Princess_Sofia/PrincessSofia-Regular.ttf) format('truetype');
-}
 
 body {
   background-image: url('../img/cream_dust.png');
