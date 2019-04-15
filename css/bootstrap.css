@@ -4111,16 +4111,13 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
-.nav-pills .nav-link {
-  border-radius: 0.25rem;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff;
-}
+.nav-pills>li{float:left}
+.nav-pills>li>a{border-radius:4px}
+.nav-pills>li+li{margin-left:2px}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover
+{color:#fff;background-color:#337ab7}
 
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
