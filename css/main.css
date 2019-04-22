@@ -173,7 +173,7 @@ a:hover, a:focus, a:active {
 .modalDialogL-body {
     position: relative;
     overflow-y: auto;
-    max-height: 700px;
+    max-height: 300px;
 }
 
 .modalDialogL > div {
