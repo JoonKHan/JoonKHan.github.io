@@ -175,7 +175,8 @@ a:hover, a:focus, a:active {
     display: grid;
     grid-template-rows: 100px auto 100px;
 }
-.modalDialogL__content {
+.modalDialogL-body {
+    max-height: calc(100vh - 210px);
     overflow-y: auto;
 }
 .modalDialogL > div {
