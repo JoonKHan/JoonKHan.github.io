@@ -171,6 +171,11 @@ a:hover, a:focus, a:active {
   pointer-events: auto;
 }
 
+.modalDialogL.open {
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+}
+
 .modalDialogL > div {
   position: relative;
   display: table; /* This is important */ 
