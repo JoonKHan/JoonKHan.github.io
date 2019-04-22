@@ -175,7 +175,9 @@ a:hover, a:focus, a:active {
     display: grid;
     grid-template-rows: 100px auto 100px;
 }
-
+.modalDialogL__content {
+    overflow-y: auto;
+}
 .modalDialogL > div {
   position: relative;
   display: table; /* This is important */ 
