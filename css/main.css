@@ -180,7 +180,7 @@ a:hover, a:focus, a:active {
   position: relative;
   overflow-x: auto;
   overflow-y: auto;
-  max-width: 700px;
+  max-width: 70px;
   max-height: 300px;
   margin: 10% auto;
   padding: 5px 20px 10px 20px;
