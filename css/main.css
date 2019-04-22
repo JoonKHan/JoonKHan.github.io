@@ -150,7 +150,6 @@ a:hover, a:focus, a:active {
   background: white;
 }
 
-
 .modalDialogL {
   position: fixed;
   top: 0;
@@ -171,15 +170,14 @@ a:hover, a:focus, a:active {
   pointer-events: auto;
 }
 
-.modalDialogL.open {
-    display: grid;
-    grid-template-rows: 100px auto 100px;
+.modalDialogL-body {
+    max-height: 900px%;
+    overflow-y: auto;
 }
 
 .modalDialogL > div {
   position: relative;
   max-height: calc(100vh - 210px);
-  overflow-y: auto;
   overflow-x: auto;
   max-width: 700px;
   max-height: 700px;
