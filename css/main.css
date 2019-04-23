@@ -151,6 +151,7 @@ a:hover, a:focus, a:active {
 }
 
 .modalDialogL {
+  display: table;
   position: fixed;
   top: 0;
   right: 0;
@@ -169,11 +170,13 @@ a:hover, a:focus, a:active {
 }
 
 .modalDialogL-body {
+  display: table;
     position: relative;
     overflow-y: auto;
 }
 
 .modalDialogL > div {
+  display: table;
   position: relative;
   overflow-x: auto;
   overflow-y: auto;
