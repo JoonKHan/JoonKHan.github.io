@@ -16,6 +16,12 @@
   font-weight: 900;
   src: url(../lato/Lato-Black.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src:  url(../lato/PermanentMarker.ttf) format('truetype');
+}
 
 body {
   background-image: url('../img/cream_dust.png');
